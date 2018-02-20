@@ -2,7 +2,7 @@
 
 ### Data
 
-The original interactions dataset can be found [here](https://www.reddit.com/r/bigquery/comments/3cej2b/17_billion_reddit_comments_loaded_on_bigquery/)  
+The original interactions dataset can be found [here](https://www.reddit.com/r/redditdata/comments/6640ru/place_datasets_april_fools_2017/)  
 
 Artwork are given a single id in the file `data/group_export.csv` with the following format:  
 
