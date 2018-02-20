@@ -4,10 +4,10 @@
 
 The original interactions dataset can be found [here](https://www.reddit.com/r/bigquery/comments/3cej2b/17_billion_reddit_comments_loaded_on_bigquery/)  
 
-Artwork data are included in the repo with the following format:  
+Artwork are given a single id in the file `data/group_export.csv` with the following format:  
 
 ```
-group_export.csv format: x,y,artwork_id  
+x,y,artwork_id  
 ```
 
 x,y are in the original coordinate system (the same that can be downloaded from Reddit)  
