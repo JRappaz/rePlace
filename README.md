@@ -2,7 +2,7 @@
 
 The goal of this project is to qualify the collaboration between users in Reddit's social experiment "Place". In this experiment, users were allowed to choose the color of a pixel on a 1000x1000 canvas every 5 minutes. A timelapse can be seen here :
 
-<center>[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/XnRCZK3KjUY/0.jpg)](http://www.youtube.com/watch?v=XnRCZK3KjUY)</center>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/XnRCZK3KjUY/0.jpg)](http://www.youtube.com/watch?v=XnRCZK3KjUY)
 
 
 ## The data and its features
@@ -71,13 +71,11 @@ The prediction of the new model is the dot product of the user vector with the e
 Although the performance of this model is moderate, without any improvement over the simple user scalar model, the interpretation of its parameters (the embeddings) is more relevant here.
 
 Indeed, after training the model, the dot product of each user with each zone is computed. From this, users can be ranked in each zone by their level of "collaboration". To see this more clearly, let's consider the patch covering the center of the US flag in the middle of the canvas.
-The activity of the top 10'000 users can be seen below :
+The activity of the top 10'000 users can be seen ![here](https://github.com/JRappaz/rePlace/tree/master/figures/usa_flag_top_10k.pdf).
 
-![top10k](https://github.com/JRappaz/rePlace/figures/usa_flag_top_10k.pdf)
+Whereas the activity of the tail 10'000 users can be seen ![here](https://github.com/JRappaz/rePlace/tree/master/figures/usa_flag_tail_10k.pdf)
+.
 
-Whereas the activity of the tail 10'000 users can be seen here :
-
-![tail10k](https://github.com/JRappaz/rePlace/figures/usa_flag_tail_10k.pdf)
 
 
 
