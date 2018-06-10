@@ -78,7 +78,6 @@ Whereas the activity of the tail 10'000 users can be seen ![here](https://github
 
 
 
-
 ## Results and discussion
 | Model                         | Test error    |
 | -------------                 |:-------------:|
@@ -86,7 +85,7 @@ Whereas the activity of the tail 10'000 users can be seen ![here](https://github
 | Linear Regression             | 0.28742 |
 | Neural Network with features  | **0.28701** |
 | User scalar                   | 0.32177 |
-| User-previous dot             |  |
+| User-previous dot             | 0.42435 |
 | User-previous concat   		  | 0.33172 |
 | User-zone dot   		         | 0.32442 |
 
