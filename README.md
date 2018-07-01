@@ -78,8 +78,8 @@ Whereas the activity of the tail 10'000 users can be seen ![here](https://github
 
 
 
-## Results and discussion
-| Model                         | Test error    |
+## Results
+| Model                         | Test RMSE    |
 | -------------                 |:-------------:|
 | Baseline                      | 0.31439 |
 | Linear Regression             | 0.28742 |
